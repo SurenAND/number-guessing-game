@@ -41,6 +41,9 @@ tryBtn.addEventListener("click", () => {
     } else if (inputValue > rightAnswer) {
       guess.textContent = "OOPS Sorry! Try smaller number 🤔";
       input.value = "";
+    } else {
+      guess.textContent = "OOPS Sorry! Try greater number 🤔";
+      input.value = "";
     }
   } else {
     guess.textContent = "Invalid! Choose a number 😡";

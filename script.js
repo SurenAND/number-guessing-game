@@ -5,3 +5,4 @@ let tryBtn = document.querySelector(".try-btn");
 let playAgainBtn = document.querySelector(".play-again-btn");
 let remainChances = document.querySelector(".chances");
 let winnerModal = document.querySelector(".win-modal");
+let mainSection = document.querySelector("main");

@@ -16,3 +16,10 @@
   outline: none;
   user-select: none;
 }
+
+:root {
+  --primary--color: #6c5ce7;
+  --secondary--color: #a29bfe;
+  --light--gray: #dfe6e9;
+  --dark--gray: #767a7c;
+}

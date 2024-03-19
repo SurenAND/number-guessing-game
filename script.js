@@ -16,4 +16,11 @@ let rightAnswer = Math.floor(Math.random() * 100 + 1);
 
 tryBtn.addEventListener("click", () => {
   let inputValue = +input.value;
+  if (
+    inputValue &&
+    inputValue > 0 &&
+    inputValue <= 100 &&
+    typeof inputValue == "number"
+  ) {
+  }
 });

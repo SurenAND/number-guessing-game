@@ -101,3 +101,11 @@ body {
     transform: translateX(1);
   }
 }
+
+.main--header {
+  padding: 7rem;
+  font-size: 5rem;
+  font-weight: bolder;
+  height: 20%;
+  color: white;
+}

@@ -152,3 +152,8 @@ body {
   border-radius: 50%;
   opacity: 60%;
 }
+
+.guess {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}

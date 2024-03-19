@@ -50,3 +50,7 @@ tryBtn.addEventListener("click", () => {
     input.value = "";
   }
 });
+
+function playAgain() {
+  window.location.reload();
+}

@@ -11,3 +11,5 @@ let previousGuesses = document.querySelector(".last-choices");
 let guessList = [];
 
 let chances = 10;
+
+let rightAnswer = Math.floor(Math.random() * 100 + 1);

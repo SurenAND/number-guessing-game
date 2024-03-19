@@ -54,3 +54,22 @@ tryBtn.addEventListener("click", () => {
 function playAgain() {
   window.location.reload();
 }
+
+function winnerPopUp() {
+  input.value = "";
+  winnerModal.style.display = "flex";
+  mainSection.style.display = "none";
+  //close modal
+  const close = document.querySelector(".close");
+  close.addEventListener("click", () => {
+    winnerModal.style.display = "none";
+    mainSection.style.display = "flex";
+  });
+
+  window.addEventListener("click", (event) => {
+    if (event.target === winnerModal) {
+      winnerModal.style.display = "none";
+      mainSection.style.display = "flex";
+    }
+  });
+}

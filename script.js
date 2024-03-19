@@ -23,6 +23,8 @@ tryBtn.addEventListener("click", () => {
     typeof inputValue == "number"
   ) {
     guessList.push(inputValue);
+    previousGuesses.textContent = guessList;
+    remainChances.textContent = --chances;
   } else {
     guess.textContent = "Invalid! Choose a number 😡";
     input.value = "";

@@ -25,6 +25,14 @@ tryBtn.addEventListener("click", () => {
     guessList.push(inputValue);
     previousGuesses.textContent = guessList;
     remainChances.textContent = --chances;
+
+    if (chances === 0) {
+      // Show game over message
+      guess.textContent = "Game Over! You've run out of chances.";
+      tryBtn.style.display = "none";
+      playAgainBtn.style.display = "block";
+      return;
+    }
   } else {
     guess.textContent = "Invalid! Choose a number 😡";
     input.value = "";

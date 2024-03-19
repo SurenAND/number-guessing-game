@@ -4,3 +4,4 @@ let guess = document.querySelector(".guess");
 let tryBtn = document.querySelector(".try-btn");
 let playAgainBtn = document.querySelector(".play-again-btn");
 let remainChances = document.querySelector(".chances");
+let winnerModal = document.querySelector(".win-modal");

@@ -132,3 +132,13 @@ body {
 .choices {
   font-size: 0.8rem;
 }
+
+.info-section,
+.play-ground {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+}

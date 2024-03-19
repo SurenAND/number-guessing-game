@@ -142,3 +142,13 @@ body {
   align-items: center;
   width: 50vw;
 }
+
+.chances {
+  padding: 0.7rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: black;
+  background-color: var(--light--gray);
+  border-radius: 50%;
+  opacity: 60%;
+}

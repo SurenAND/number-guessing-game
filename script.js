@@ -33,6 +33,12 @@ tryBtn.addEventListener("click", () => {
       playAgainBtn.style.display = "block";
       return;
     }
+
+    if (inputValue == rightAnswer) {
+      winnerPopUp();
+      playAgainBtn.style.display = "block";
+      tryBtn.style.display = "none";
+    }
   } else {
     guess.textContent = "Invalid! Choose a number 😡";
     input.value = "";

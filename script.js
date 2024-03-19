@@ -22,5 +22,8 @@ tryBtn.addEventListener("click", () => {
     inputValue <= 100 &&
     typeof inputValue == "number"
   ) {
+  } else {
+    guess.textContent = "Invalid! Choose a number 😡";
+    input.value = "";
   }
 });

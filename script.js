@@ -7,3 +7,5 @@ let remainChances = document.querySelector(".chances");
 let winnerModal = document.querySelector(".win-modal");
 let mainSection = document.querySelector("main");
 let previousGuesses = document.querySelector(".last-choices");
+
+let guessList = [];

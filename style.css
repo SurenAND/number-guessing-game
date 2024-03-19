@@ -109,3 +109,15 @@ body {
   height: 20%;
   color: white;
 }
+
+.game-section {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  justify-content: space-around;
+  align-items: center;
+  font-size: larger;
+  font-weight: 600;
+  height: 80%;
+  color: white;
+}

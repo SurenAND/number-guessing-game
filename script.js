@@ -38,6 +38,9 @@ tryBtn.addEventListener("click", () => {
       winnerPopUp();
       playAgainBtn.style.display = "block";
       tryBtn.style.display = "none";
+    } else if (inputValue > rightAnswer) {
+      guess.textContent = "OOPS Sorry! Try smaller number 🤔";
+      input.value = "";
     }
   } else {
     guess.textContent = "Invalid! Choose a number 😡";
